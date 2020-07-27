@@ -11,6 +11,7 @@ v2script
 ```
 
 个别平台需要先安装依赖例如搬瓦工Debian 系统依赖请运行以下命令：
+
 apt-get update -y && apt-get install curl -y
 
 ## Screenshot
