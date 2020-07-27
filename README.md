@@ -1,6 +1,8 @@
 # V2RAY TCP+TLS+WEB / WSS+CDN and Trojan-go
 automated script for V2Ray (TCP+TLS+Web), V2Ray (WSS+CDN), and Trojan-go
 
+推荐使用Debian系统
+
 ## Usage
 ```sh
 bash <(curl -sL https://raw.githubusercontent.com/phlinhng/v2ray-tcp-tls-web/master/install.sh) && v2script
