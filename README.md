@@ -9,6 +9,8 @@ The above command will download the script, save it to `/usr/local/bin/v2script`
 ```
 v2script
 ```
+个别平台需要先安装依赖例如搬瓦工
+Debian 系统依赖：apt-get update -y && apt-get install curl -y
 
 ## Screenshot
 <img src="https://raw.githubusercontent.com/phlinhng/v2ray-tcp-tls-web/master/image/v2script_menu.jpeg" alt="alt text" width="640">
