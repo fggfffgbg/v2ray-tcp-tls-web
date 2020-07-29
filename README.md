@@ -24,6 +24,10 @@ apt-get update -y && apt-get install curl -y
 2. TCP+TLS has lower delay by saving 1-RTT from ws handshaking
 3. TCP+TLS is not compatible with cloudflare free CDN plan as WSS does.
 
+输入以下命令可重启VPS服务器：
+
+reboot
+
 ## Related work
 + [@phlinhng/v2ray-caddy-cf](https://github.com/phlinhng/v2ray-caddy-cf): automated script for v2Ray (WS+TLS+Web)
 + [Shawdowrockets 訂閱鏈接編輯器](https://www.phlinhng.com/b64-url-editor): subscription manager
