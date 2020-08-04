@@ -28,6 +28,8 @@ apt-get update -y && apt-get install curl -y
 
 reboot
 
+不想用 CDN 的话就放着不用就行了，不关也无所谓的。如果真的很在意，可以编辑 /etc/tls-shunt-proxy/config.yaml 和 /usr/local/etc/v2ray/config.json  将 websocket 相关内容移除。
+
 ## Related work
 + [@phlinhng/v2ray-caddy-cf](https://github.com/phlinhng/v2ray-caddy-cf): automated script for v2Ray (WS+TLS+Web)
 + [Shawdowrockets 訂閱鏈接編輯器](https://www.phlinhng.com/b64-url-editor): subscription manager
